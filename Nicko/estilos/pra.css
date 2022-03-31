@@ -1,0 +1,142 @@
+*{  margin: 0;
+    padding:0;}
+
+
+
+body {
+    background-color: #2d6a4f;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    
+    grid-template-areas: 
+    "lo ba"
+    "he he"
+    "ga ga "
+    "po po"
+    "fo fo"
+    ;
+}
+.balanza {
+    grid-area: ba;
+}
+.logo{ 
+    grid-area: lo;
+}
+.he {
+    grid-area: he;
+}
+.ga {
+    grid-area: ga;
+}
+.po {
+    grid-area: po;
+}
+.fo {
+    grid-area: fo;
+}
+.he {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1b4332;
+}
+.logo {
+    background-color: #1b4332;
+    width: 6rem;
+    height: 6rem;
+}
+
+    
+.balanza {
+    justify-self: end;
+    background-color: #1b4332;
+    width: 6rem;
+    height: 6rem;
+}
+    
+header ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 10px;
+
+}
+header li {
+    text-align: center;
+}
+header a {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-style: italic;  
+    padding: 5px;
+}
+
+.ga {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.ga img {
+
+    height: 19rem;
+    width: 19rem;
+}
+
+.po {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+
+.imagenAbogacia {
+    margin: 20px 10px;
+    width: 19rem;
+    height: 19rem;
+}
+    
+.fo ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.icono { /* iconos del foter */
+    width: 60px;
+    height: 60px;
+}
+
+.icono2 { /* icono del footer */
+    width: 180px;
+    height: 60px;
+}
+@media screen and (min-width: 1023px ) {
+
+    
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+   .ga {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       margin: 20px;
+
+   }
+    
+    
+}
+
