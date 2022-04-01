@@ -45,8 +45,11 @@ body {
     background-color: #1b4332;
     width: 6rem;
     height: 6rem;
+    transition: heigth 2s;
 }
-
+.logo:hover {
+    height: 4rem;
+}
     
 .balanza {
     justify-self: end;
@@ -81,12 +84,17 @@ header a {
     align-items: center;
 }
 
-
 .ga img {
 
     height: 19rem;
     width: 19rem;
+    transition: width 2s;
 }
+
+.ga img:hover{
+    width: 22rem; 
+}
+
 
 .po {
     display: flex;
@@ -95,11 +103,11 @@ header a {
     margin: 20px 10px;
 }
 
-
 .imagenAbogacia {
     margin: 20px 10px;
     width: 19rem;
     height: 19rem;
+    transform: rotate(355deg);
 }
     
 .fo ul {
