@@ -1,0 +1,96 @@
+*{  margin: 0;
+    padding:0;}
+
+
+body {
+    background-color: #2d6a4f;
+}
+
+.he {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    
+    background-color: #1b4332;
+}
+
+.logo img {
+    background-color: #1b4332;
+    width: 6rem;
+    height: 6rem;
+
+}
+
+.balanza img {
+    background-color: #1b4332;
+    width: 6rem;
+    height: 6rem;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 10px;
+
+}
+.menu li {
+    text-align: center;
+}
+.menu li:hover {
+    background-color: aqua;
+}
+.menu li a {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-style: italic;  
+    padding: 5px;
+}
+
+.ga {
+    margin: 4rem 10rem;
+}
+
+.ga img {
+   
+    height: 29rem;
+}
+
+.po {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.imagenAbogacia {
+    display: flex;
+    justify-content: center;
+}
+.imagenAbogacia img {
+    margin: 20px 10px;
+    width: 19rem;
+    height: 19rem;
+
+}
+
+.fo ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.icono { /* iconos del foter */
+    width: 60px;
+    height: 60px;
+}
+
+.icono2 { /* icono del footer */
+    width: 180px;
+    height: 60px;
+}
+
